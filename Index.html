@@ -1,0 +1,41 @@
+</head>
+
+<body>
+<div class="container">
+  
+  <center>
+    <h3 class="btn btn-default heading">IMAGE RECOGNIZER</h3>
+
+    <br><br>
+
+    <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
+    <div id="name_of_objects">
+      Pen
+      <hr>
+      Water bottle
+      <hr>
+      Spoon
+      <hr>
+      Phone
+      <hr>
+    </div>
+
+    <label>Webcam View - </label>
+    <div id="camera"></div>
+    <br><br>
+    <div id="result"></div>
+    <br><br>
+    <button onclick="takeSnapshot();" class="btn btn-info">Capture image</button>
+    <br><br>
+    <button onclick="check();" class="btn btn-success">Check results</button>
+    <br><br>
+
+    <p style="font-size: 22px;">Object :  </p>
+    <p style="font-size: 22px;">Accuracy :  </p>
+  </center>
+
+</div>
+<script src="main.js"></script>
+
+</body>
+</html>
